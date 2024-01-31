@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #d30982;
+}
+
+samp {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    background: none;
+    align-items: center;
+    margin: 0px 40px 0px 40px;
+    border: none;
+
+}
+
+
+svg {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+}
+i{
+    height: 40px;
+    width: 40px;
+}
+#play-pause {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+}
+
+.play{
+    width: 40px;
+    height: 40px;
+}
+
+
