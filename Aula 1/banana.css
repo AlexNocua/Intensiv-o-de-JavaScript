@@ -4,7 +4,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background: #d30982;
+    background: #2b2b2b;
 }
 
 samp {
@@ -50,6 +50,12 @@ button {
 
 }
 
+#play-pause{
+    display:flex
+
+    width:20px
+    head:20px
+}
 
 svg {
     height: 40px;
@@ -64,6 +70,8 @@ i{
     height: 40px;
     width: 40px;
     color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .play{
@@ -71,4 +79,8 @@ i{
     height: 40px;
 }
 
+.bi-pause-circle-fill{
+    width:20px;
+    height:20px
+}
 
